@@ -1,7 +1,15 @@
 [
-    "index.md",
+    { "filename": "index.md",
+            "attr": {
+            "data-background": "#f1c40f"
+        }},
     "me.md",
-    "introduction.md",
+    { "filename" :"introduction.md",
+
+            "attr": {
+            "data-background": "#ecf0f1"
+        }},    
+        
     "auto.md",
     {
         "attr": {
@@ -25,10 +33,19 @@
     "bdd-conversation.md",
     "tdd.md",
     "ddthings.md",
-    "api.md",
+    { "filename": "api.md",
+
+            "attr": {
+            "data-background": "#ffdec1"
+        }},        
+
+    
     "coverage.md",
     "ci.md",
-    "frameworks.md",
+    { "filename": "frameworks.md", 
+            "attr": {
+            "data-background": "#ebcaf9"
+        }},                
     "phpunit.md",
     "phpspec.md",
     "behat.md",
