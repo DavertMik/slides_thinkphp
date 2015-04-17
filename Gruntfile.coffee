@@ -87,7 +87,7 @@ module.exports = (grunt) ->
                 message: 'Built from %sourceCommit% on branch %sourceBranch%'
             pages:
                 options:
-                    remote: 'git@github.com:DavertMik/slidesmk.git'
+                    remote: 'git@github.com:DavertMik/slides_thinkphp.git'
                     branch: 'gh-pages'
         
 
